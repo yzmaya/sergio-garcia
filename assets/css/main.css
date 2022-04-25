@@ -26,6 +26,18 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
+	@media only screen and (max-width: 1600px) {
+		.letras{
+		
+			font-size:x-large ;
+		  color: white;
+		  
+		}
+	  }
+
+
+
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
@@ -2592,13 +2604,13 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #1f1815;
+		background-color: #fff;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.png");
+		background-image: url("images/overlay3.png"), url("../../images/bg.png");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
-		color: rgba(255, 255, 255, 0.5);
+		color: rgb(255, 255, 255);
 		height: 100%;
 		left: 0;
 		padding: 8em 4em;
@@ -2622,6 +2634,7 @@ input, select, textarea {
 			-ms-flex-grow: 1;
 			flex-grow: 1;
 			margin: 0 0 2em 0;
+		
 		}
 
 		#header strong, #header b {
@@ -2633,13 +2646,14 @@ input, select, textarea {
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
+			color: #113088;
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
 		}
 
 		#header .image.avatar {
+			    border: 1px solid white;
 			margin: 0 0 1em 0;
 			width: 6.25em;
 		}
